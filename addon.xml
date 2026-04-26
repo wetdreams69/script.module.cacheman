@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.cacheman"
+       name="CacheMan"
+       version="1.0.0"
+       provider-name="wetdreams69">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib"/>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en_GB">Lightweight SQLite cache manager for Kodi addons</summary>
+        <description lang="en_GB">Provides a simple, thread-safe cache layer using SQLite for any Kodi addon. Supports TTL per function, LRU eviction, async decorators, zlib compression, and automatic cleanup. Generic and adaptable to any addon type.</description>
+        <license>MIT</license>
+        <source>https://github.com/wetdreams69/script.module.cacheman</source>
+        <assets>
+            <icon>resources/icon.png</icon>
+        </assets>
+    </extension>
+</addon>
